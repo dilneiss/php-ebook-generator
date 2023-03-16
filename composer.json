@@ -1,5 +1,5 @@
 {
-    "name": "webdevbr/php-ebook-generator",
+    "name": "dilneiss/php-ebook-generator",
     "description": "PHP and Markdown ebook generator.",
     "authors": [
         {
@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "php": "^7.0.0",
+        "php": "^7.0.0|^8.0.0",
     	"michelf/php-markdown": "^1.5",
     	"dompdf/dompdf":"0.7.x@beta"
     },
