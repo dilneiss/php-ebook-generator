@@ -10,7 +10,7 @@
     "require": {
         "php": "^7.0.0|^8.0.0",
     	"michelf/php-markdown": "^1.5",
-    	"dompdf/dompdf":"0.7.x@beta"
+    	"dompdf/dompdf":"2.0.3"
     },
     "autoload": {
     	"psr-4": {
