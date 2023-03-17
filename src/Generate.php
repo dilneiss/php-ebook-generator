@@ -44,7 +44,7 @@ class Generate
 			.'</head><body>'
 			.$cover
 			.$before
-			.$this->tocTemplate()
+			//.$this->tocTemplate()
 			.$chapters
 			.$after
 			.'</body></html>';
@@ -53,7 +53,7 @@ class Generate
 
 		$this->domPdf->render();
 
-		$this->toc();
+		//$this->toc();
 		$this->pageNumber();
 
 		file_put_contents($destination, $this->domPdf->output());
